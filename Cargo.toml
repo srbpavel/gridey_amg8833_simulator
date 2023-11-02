@@ -1,0 +1,21 @@
+[package]
+name = "grideye_amg8833_simulator"
+version = "0.1.0"
+edition = "2021"
+authors = ["prace@srbpavel.cz <prace@srbpavel.cz>"]
+
+[dependencies]
+log = "0.4"
+env_logger = "0.10.0"
+rumqttc = "0.22.0"
+#chrono = "0.4.26"
+#bytes = "1.4.0"
+rand = "0.8.5"
+
+[dependencies.uuid]
+version = "1.3.0"
+features = [
+    "v4",
+    "fast-rng",
+    "macro-diagnostics",
+]
